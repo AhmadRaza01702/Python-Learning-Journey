@@ -1,0 +1,27 @@
+# a = [1,2,3,(4,5)]
+# print(a)
+# print(type(a))
+# n = len(a)
+# for i in range(n):
+#     if type(a[i]) is tuple:
+#         if len(a[i])>1:  #check the length of tuple inside the list
+#             m = len(a[i])
+#             for j in range(m):
+#                 print(i,j,':',a[i][j])
+#     else:
+#         print(i,a[i])
+# b = (4,5)
+# print(b)
+# print(type(b))
+# a = [1,2,3,b]
+# print(a)
+# print(type(a))
+a= [(1,2),(3,4)]
+print("Before append:",a)
+a.append([5,6])
+print(a)
+n = len(a)
+for i in range(n):
+    for j in range(len(a[i])):
+        print(i,j,":",a[i][j])
+    

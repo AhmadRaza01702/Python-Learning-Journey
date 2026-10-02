@@ -1,0 +1,1 @@
+print (("Ahmad Raza" + "\n" ) * 10 )
